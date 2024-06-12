@@ -17,10 +17,10 @@ devkitPro's custom pacman (`dkp-pacman`) installed, if you follow the steps belo
 3. Now set up dkp-pacman according to [devkitPro's
    instructions](https://devkitpro.org/wiki/devkitPro_pacman):
 
-    sudo dkp-pacman-key --init
-    sudo dkp-pacman-key --recv  BC26F752D25B92CE272E0F44F7FD5492264BB9D0 --keyserver keyserver.ubuntu.com
-    sudo dkp-pacman-key --lsign BC26F752D25B92CE272E0F44F7FD5492264BB9D0
-    sudo dkp-pacman -Syu
+      sudo dkp-pacman-key --init
+      sudo dkp-pacman-key --recv  BC26F752D25B92CE272E0F44F7FD5492264BB9D0 --keyserver keyserver.ubuntu.com
+      sudo dkp-pacman-key --lsign BC26F752D25B92CE272E0F44F7FD5492264BB9D0
+      sudo dkp-pacman -Syu
 
    This last command will install an update for `dkp-pacman`, overriding the files
    installed by the RPM package.
