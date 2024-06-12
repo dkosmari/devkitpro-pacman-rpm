@@ -30,11 +30,11 @@ Now you're ready to start installing the devkitPro packages you want.
 
 ## Preparing your environment
 
-Most homebrew expect the environment variable `DEVKITPRO` to be pointing at the root of
+Most homebrew build scripts expect the environment variable `DEVKITPRO` to be pointing to the root of
 devkitPro (`/opt/devkitpro`); similarly for `DEVKITARM` and `DEVKITPPC`. This is my
 preferred way to set it up, on a distro that uses systemd:
 
-  1. Create a file `~/.config/environment.d/devkitpro.conf` with these lines in it:
+  1. Create the file `~/.config/environment.d/devkitpro.conf` with these lines:
 
          DEVKITPRO=/opt/devkitpro
          DEVKITARM=${DEVKITPRO}/devkitARM
