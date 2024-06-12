@@ -8,7 +8,7 @@ devkitPro's custom pacman (`dkp-pacman`) installed, if you follow the steps belo
 ## Setup
 
 1. Download the [rpm package from the releases
-   page](https://github.com/dkosmari/devkitpro-rpm/releases/latest).
+   page](https://github.com/dkosmari/devkitpro-pacman-rpm/releases/latest).
 
 2. Install the rpm:
 
