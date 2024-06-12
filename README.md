@@ -60,10 +60,10 @@ preferred way to set it up, on a distro that uses systemd:
      
          alias 3ds-env='source $DEVKITPRO/3dsvars.sh'
          alias cube-env='source $DEVKITPRO/cubevars.sh'
-         alias nds-env='$DEVKITPRO/ndsvars.sh'
-         alias switch-env='$DEVKITPRO/switchvars.sh'
-         alias wii-env='$DEVKITPRO/wiivars.sh'
-         alias wiiu-env='$DEVKITPRO/wiiuvars.sh'
+         alias nds-env='source $DEVKITPRO/ndsvars.sh'
+         alias switch-env='source $DEVKITPRO/switchvars.sh'
+         alias wii-env='source $DEVKITPRO/wiivars.sh'
+         alias wiiu-env='source $DEVKITPRO/wiiuvars.sh'
 
      Now you can just run `wiiu-env` to activate the Wii U environment, or similarly for
      the other consoles.
